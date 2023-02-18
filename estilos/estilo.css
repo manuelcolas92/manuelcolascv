@@ -1,0 +1,237 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    height: 63px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #252B3B;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    padding: 0 10px 0 10px;
+}
+
+.logo p {
+    font-size: 25px;
+    color: white;
+    padding: 0 10px 0 10px;
+    font-weight: 800;
+}
+
+.logo a {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.nav a {
+    font-size: 16px;
+    padding: 20px 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.nav a:hover {
+    color: orange;
+    transition: 0.2s;
+}
+
+.body_2 {
+    position: absolute;
+    top: 62px;
+}
+
+/*SOBRE MI*/
+
+.sobremi {
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+}
+
+.sobremi p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 10px 15%;
+    color: white;
+}
+
+/*EXPERIENCIA*/
+
+.experiencia {
+    background: #252B3B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experiencia__empresa0 {
+    color: white
+}
+
+.experiencia__empresa0 h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0 15%;
+    color: orange;
+}
+
+.experiencia__empresa0 p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0px 15%;
+}
+
+.experiencia__empresa1 {
+    color: white
+}
+
+.experiencia__empresa1 h2 {
+    margin-top: 5px;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0 15%;
+    color: orange;
+}
+
+.experiencia__empresa1 p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0px 15%;
+}
+
+.experiencia__empresa2 {
+    color: white
+}
+
+.experiencia__empresa2 h2 {
+    margin-top: 5px;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0 15%;
+    color: orange;
+}
+
+.experiencia__empresa2 p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0px 15%;
+    margin-bottom: 25px;
+}
+
+/*ESTUDIOS*/
+
+.educacion {
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 15%;
+    color: white;
+}
+
+.educacion a {
+    color: white;
+}
+
+.educacion a:hover {
+    color: orange;
+    transition: 0.2s;
+}
+
+.educacion__carreras {
+    margin-bottom: 10px;
+}
+
+.educacion h2 {
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 25px;
+    color: orange;
+}
+
+.educacion p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/*CONTACTOS*/
+
+.contactos {
+    background: #252B3B;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+    padding: 0 15%;
+}
+
+.contactos a {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.contactos a:hover {
+    color: orange;
+    transition: 0.3s;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: orange;
+    transition: 0.2s;
+}
