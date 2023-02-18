@@ -197,7 +197,7 @@ header {
     background: #252B3B;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;    
+    justify-content: space-around;
     padding: 0 15%;
 }
 
@@ -234,4 +234,15 @@ header {
 .footer a:hover {
     color: orange;
     transition: 0.2s;
+}
+
+.linea {
+    border: 1px solid white;
+    width: 70%;
+    margin: 10px auto 20px auto;
+}
+
+.linea2 {
+    border: 1px solid white;
+    margin: 25px auto 20px auto;
 }
