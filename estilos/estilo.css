@@ -58,8 +58,8 @@ header {
 }
 
 .nav a:hover {
-    color: orange;
-    transition: 0.2s;
+    color: gray;
+    transition: 0.3s;
 }
 
 .body_2 {
@@ -69,18 +69,36 @@ header {
 
 /*SOBRE MI*/
 
+h1 {
+    color: white;
+    text-align: left;
+}
+
 .sobremi {
-    background-color: rgb(32, 32, 32);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:right;
+    background-repeat:no-repeat;	
     display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.sobremi img {
+    height: 30%;
+    width: 30%;
+    margin: 100px;
+    opacity: 0.6;
 }
 
 .sobremi p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2;
     text-align: justify;
     padding: 10px 15%;
     color: white;
+    margin: 30px 0 60px 0;
 }
 
 /*EXPERIENCIA*/
@@ -92,8 +110,20 @@ header {
     justify-content: center;
 }
 
+.titulo_exp {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titulo_exp h2 {
+    color: white;
+    margin-right: 15%;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
 .experiencia__empresa0 {
-    color: white
+    color: white;
 }
 
 .experiencia__empresa0 h2 {
@@ -102,12 +132,13 @@ header {
     line-height: 1.5;
     text-align: left;
     padding: 0 15%;
-    color: orange;
+    color:white;
+    margin-top: 65px;
 }
 
 .experiencia__empresa0 p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2;
     text-align: left;
     padding: 0px 15%;
 }
@@ -117,17 +148,18 @@ header {
 }
 
 .experiencia__empresa1 h2 {
-    margin-top: 5px;
+    margin-top: 7px;
     font-size: 22px;
     line-height: 1.5;
     text-align: left;
     padding: 0 15%;
-    color: orange;
+    color: white;
+    margin-top: 65px;
 }
 
 .experiencia__empresa1 p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2;
     text-align: left;
     padding: 0px 15%;
 }
@@ -137,20 +169,21 @@ header {
 }
 
 .experiencia__empresa2 h2 {
-    margin-top: 5px;
+    margin-top: 7px;
     font-size: 22px;
     line-height: 1.5;
     text-align: left;
     padding: 0 15%;
-    color: orange;
+    color: white;
+    margin-top: 65px;
 }
 
 .experiencia__empresa2 p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2;
     text-align: left;
     padding: 0px 15%;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
 }
 
 /*ESTUDIOS*/
@@ -164,12 +197,25 @@ header {
     color: white;
 }
 
+.titulo_edu {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(32, 32, 32);
+}
+
+.titulo_edu h2 {
+    color: white;   
+    margin-right: 15%;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
 .educacion a {
     color: white;
 }
 
 .educacion a:hover {
-    color: orange;
+    color: gray;
     transition: 0.2s;
 }
 
@@ -182,12 +228,13 @@ header {
     line-height: 1.5;
     text-align: left;
     margin-top: 25px;
-    color: orange;
+    color: white(255, 197, 89);
+    margin-top: 65px;
 }
 
 .educacion p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2;
     text-align: left;
 }
 
@@ -196,21 +243,33 @@ header {
 .contactos {
     background: #252B3B;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
     padding: 0 15%;
+}
+
+.contactos__titulo {
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.contactos__iconos{
+    display: flex;
+    flex-direction: row;
 }
 
 .contactos a {
     text-decoration: none;
     color: white;
-    font-size: 50px;
-    margin: 20px 0;
+    font-size: 70px;
+    margin: 0px 40px 40px 40px;
 }
 
 .contactos a:hover {
-    color: orange;
-    transition: 0.3s;
+    color: gray;
+    transition: 0.2s;
 }
 
 /*FOOTER*/
@@ -232,14 +291,16 @@ header {
 }
 
 .footer a:hover {
-    color: orange;
-    transition: 0.2s;
+    color: gray;
+    transition: 0.3s;
 }
+
+/*SEPARADORES*/
 
 .linea {
     border: 1px solid white;
     width: 70%;
-    margin: 10px auto 20px auto;
+    margin: 10px auto 0px auto;
 }
 
 .linea2 {
