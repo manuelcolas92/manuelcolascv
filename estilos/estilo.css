@@ -436,7 +436,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
     background-size: cover;
-    background-position:unset;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -504,7 +504,7 @@ h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
     background-size: cover;
-    background-position: unset;
+    background-position: right;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -538,7 +538,7 @@ h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
     background-size: cover;
-    background-position: unset;
+    background-position: right;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -623,7 +623,7 @@ h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
     background-size: cover;
-    background-position: unset;
+    background-position: right;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -638,7 +638,7 @@ h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
     background-size: cover;
-    background-position: unset;
+    background-position: right;
     background-repeat: no-repeat;
 }
 
@@ -681,7 +681,7 @@ h1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
     background-size: cover;
-    background-position: unset;
+    background-position: right;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
