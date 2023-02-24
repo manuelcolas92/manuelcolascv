@@ -1,3 +1,5 @@
+@media screen and (min-width: 768px) {
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
@@ -146,7 +148,7 @@ h1 {
 .experiencia__empresa0 p {
     font-size: 18px;
     line-height: 2;
-    text-align: left;
+    text-align: justify;
     padding: 0px 15%;
 }
 
@@ -167,7 +169,7 @@ h1 {
 .experiencia__empresa1 p {
     font-size: 18px;
     line-height: 2;
-    text-align: left;
+    text-align: justify;
     padding: 0px 15%;
 }
 
@@ -188,7 +190,7 @@ h1 {
 .experiencia__empresa2 p {
     font-size: 18px;
     line-height: 2;
-    text-align: left;
+    text-align: justify;
     padding: 0px 15%;
     margin-bottom: 60px;
 }
@@ -408,4 +410,425 @@ button:hover span:nth-child(3) {
 
 button:hover span:nth-child(4) {
     top: 0;
+}}
+
+/* VISTA MOBILE -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* VISTA MOBILE -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* VISTA MOBILE -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* VISTA MOBILE -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* VISTA MOBILE -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* VISTA MOBILE -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* VISTA MOBILE -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 767px) {
+
+* {
+    font-family: 'Montserrat', sans-serif;
 }
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 175px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 90%;    
+}
+
+.logo p {
+    font-size: 40px;
+    color: white;
+    padding: 0 10px 0 10px;
+    font-weight: 800;
+}
+
+.logo a {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.nav a {
+    font-size: 16px;
+    padding: 20px 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.nav a:hover {
+    color: gray;
+    transition: 0.3s;
+}
+
+.body_2 {
+    position: absolute;
+    top: 175px;
+}
+
+/*SOBRE MI*/
+
+h1 {
+    color: white;
+    text-align: left;
+}
+
+.sobremi {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobremi img {
+    height: 30%;
+    width: 30%;
+    margin: 100px;
+    opacity: 0.6;
+}
+
+.sobremi h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.sobremi p {
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+    padding: 10px 3%;
+    color: white;
+    margin: 30px 0 60px 0;
+}
+
+/*EXPERIENCIA*/
+
+.experiencia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo_exp {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo_exp h2 {
+    color: white;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.experiencia__empresa0 {
+    color: white;
+}
+
+.experiencia__empresa0 h2 {
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 0 3%;
+    color: white;
+    margin-top: 65px;
+}
+
+.experiencia__empresa0 p {
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+    padding: 0px 3%;
+}
+
+.experiencia__empresa1 {
+    color: white
+}
+
+.experiencia__empresa1 h2 {
+    margin-top: 7px;
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 0 3%;
+    color: white;
+    margin-top: 65px;
+}
+
+.experiencia__empresa1 p {
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+    padding: 0px 3%;
+}
+
+.experiencia__empresa2 {
+    color: white
+}
+
+.experiencia__empresa2 h2 {
+    margin-top: 7px;
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 0 3%;
+    color: white;
+    margin-top: 65px;
+}
+
+.experiencia__empresa2 p {
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+    padding: 0px 3%;
+    margin-bottom: 60px;
+}
+
+/*ESTUDIOS*/
+
+.educacion {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 3%;
+    color: white;
+}
+
+.titulo_edu {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.titulo_edu h2 {
+    color: white;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.educacion a {
+    color: white;
+}
+
+.educacion a:hover {
+    color: gray;
+    transition: 0.2s;
+}
+
+.educacion__carreras {
+    margin-bottom: 10px;
+}
+
+.educacion h2 {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-top: 25px;
+    color: white(255, 197, 89);
+    margin-top: 65px;
+}
+
+.educacion p {
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+}
+
+/*CONTACTOS*/
+
+.contactos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 15%;
+}
+
+.contactos__titulo {
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.contactos__iconos {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactos a {
+    text-decoration: none;
+    color: white;
+    font-size: 70px;
+    margin: 0px 40px 40px 40px;
+}
+
+.contactos a:hover {
+    color: gray;
+    transition: 0.2s;
+}
+
+/*FOOTER*/
+
+.footer {
+    height: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: gray;
+    transition: 0.3s;
+}
+
+.footer2 {
+    height: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+/*SEPARADORES*/
+
+.linea {
+    border: 1px solid white;
+    width: 70%;
+    margin: 45px auto 0px auto;
+}
+
+.linea2 {
+    border: 1px solid white;
+    width: 75%;
+    margin: 55px auto 0px auto;
+}
+
+/*BOTONES*/
+
+button {
+    position: relative;
+    font-size: 20px;
+    padding;
+    10px 15px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+button:hover {
+    color: white;
+}
+
+button span {
+    position: absolute;
+    background: white;
+    transition: 0.5s;
+}
+
+button span:nth-child(1) {
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: -100%;
+}
+
+button span:nth-child(2) {
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    right: -100%;
+}
+
+button span:nth-child(3) {
+    width: 1px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+}
+
+button span:nth-child(4) {
+    width: 1px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+}
+
+button:hover span:nth-child(1) {
+    left: 0;
+}
+
+button:hover span:nth-child(2) {
+    right: 0;
+}
+
+button:hover span:nth-child(3) {
+    bottom: 0;
+}
+
+button:hover span:nth-child(4) {
+    top: 0;
+}}
