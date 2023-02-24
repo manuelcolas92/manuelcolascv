@@ -435,7 +435,7 @@ a {
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
     display: flex;
@@ -503,7 +503,7 @@ h1 {
 .sobremi {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
     display: flex;
@@ -537,7 +537,7 @@ h1 {
 .experiencia {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
     display: flex;
@@ -622,7 +622,7 @@ h1 {
 .educacion {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
     display: flex;
@@ -637,7 +637,7 @@ h1 {
     justify-content: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -680,7 +680,7 @@ h1 {
 .contactos {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
     display: flex;
@@ -719,7 +719,7 @@ h1 {
     height: 100px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
     display: flex;
@@ -745,7 +745,7 @@ h1 {
     height: 100px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
 }
