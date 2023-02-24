@@ -501,11 +501,11 @@ h1 {
 }
 
 .sobremi {
-/*     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: right;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
