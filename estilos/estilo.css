@@ -11,7 +11,11 @@ a {
 /*HEADER*/
 
 header {
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: space-evenly;
     height: 63px;
@@ -71,7 +75,11 @@ h1 {
 }
 
 .sobremi {
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,7 +109,11 @@ h1 {
 /*EXPERIENCIA*/
 
 .experiencia {
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,7 +198,11 @@ h1 {
 /*ESTUDIOS*/
 
 .educacion {
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -197,7 +213,11 @@ h1 {
 .titulo_edu {
     display: flex;
     justify-content: flex-end;
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .titulo_edu h2 {
@@ -238,7 +258,11 @@ h1 {
 /*CONTACTOS*/
 
 .contactos {
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -273,7 +297,11 @@ h1 {
 
 .footer {
     height: 100px;
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -295,7 +323,11 @@ h1 {
 
 .footer2 {
     height: 100px;
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 /*SEPARADORES*/
@@ -392,7 +424,7 @@ button:hover span:nth-child(4) {
 
     * {
     font-family: 'Montserrat', sans-serif;
-    color: black !important;
+    color: white;
 }
 
 a {
@@ -402,7 +434,11 @@ a {
 /*HEADER*/
 
 header {
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -412,8 +448,7 @@ header {
     box-sizing: border-box;
     position: fixed;
     top: 0px;
-    z-index: 1;
-    
+    z-index: 1;   
 }
 
 .logo {
@@ -466,7 +501,11 @@ h1 {
 }
 
 .sobremi {
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -496,7 +535,11 @@ h1 {
 /*EXPERIENCIA*/
 
 .experiencia {
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -577,7 +620,11 @@ h1 {
 /*ESTUDIOS*/
 
 .educacion {
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -588,7 +635,11 @@ h1 {
 .titulo_edu {
     display: flex;
     justify-content: center;
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .titulo_edu h2 {
@@ -627,7 +678,11 @@ h1 {
 /*CONTACTOS*/
 
 .contactos {
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -649,8 +704,8 @@ h1 {
 .contactos a {
     text-decoration: none;
     color: white;
-    font-size: 70px;
-    margin: 0px 40px 40px 40px;
+    font-size: 65px;
+    margin: 0px 15px 40px 15px;
 }
 
 .contactos a:hover {
@@ -662,7 +717,11 @@ h1 {
 
 .footer {
     height: 100px;
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -684,7 +743,11 @@ h1 {
 
 .footer2 {
     height: 100px;
-    FONDO
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/wallpaperSoja.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 /*SEPARADORES*/
