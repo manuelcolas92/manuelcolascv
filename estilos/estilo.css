@@ -31,12 +31,6 @@ header {
     margin-left: 10px;
 }
 
-.logo img {
-    height: 40px;
-    width: 40px;
-    padding: 0 10px 0 10px;
-}
-
 .logo p {
     font-size: 25px;
     color: white;
@@ -94,6 +88,11 @@ h1 {
     width: 30%;
     margin: 100px;
     opacity: 0.6;
+}
+
+.sobremi h2 {
+    color: white;
+    font-size: 40px;
 }
 
 .sobremi p {
