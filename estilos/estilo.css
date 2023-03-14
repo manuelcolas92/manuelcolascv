@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 @media screen and (min-width: 768px) {
 
 * {
@@ -348,7 +352,7 @@ h1 {
 button {
     position: relative;
     font-size: 20px;
-    padding;
+    padding:
     10px 15px;
     border: none;
     outline: none;
@@ -473,7 +477,7 @@ header {
 .nav {
     display: flex;
     box-sizing: border-box;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .nav a {
